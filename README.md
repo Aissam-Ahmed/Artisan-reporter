@@ -1,17 +1,14 @@
-# ArtisanWebShell
+# ArtisanReporter
 
-A web-based Artisan command runner and CSV report generator built with Laravel and xterm.js.
+A web-based Artisan command runner and CSV report generator built with Laravel.
 
-![Laravel](https://img.shields.io/badge/Laravel-10.x-red)
-![xterm.js](https://img.shields.io/badge/xterm.js-terminal-blue)
+![Laravel](https://img.shields.io/badge/Laravel-11.x-red)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 ## 🚀 Features
 
-- 🖥 **Interactive Web Console** – Powered by [xterm.js](https://xtermjs.org/), simulating Laravel Artisan CLI in the browser.
 - 📦 **CSV Report Generator** – Generate and download reports from any database table, filtered by date.
 - 🔐 **Secure Command Execution** – Uses Symfony Process to safely execute commands.
-- 🌐 **Arabic-Friendly Interface** – Ideal for developers in Arabic-speaking regions.
 
 ## 📸 Preview
 
@@ -63,6 +60,9 @@ php artisan serve
 
 - Type any safe shell or Artisan command in the web terminal (e.g. `php artisan list`).
 - Generate reports using custom Artisan commands like:
+```bash
+php artisan report:generate users
+```
 
 ```bash
 php artisan report:generate users --from=2024-01-01 --to=2024-12-31
@@ -81,17 +81,13 @@ php artisan report:generate users --from=2024-01-01 --to=2024-12-31
 ```
 ├── app/Console/Commands
 │   └── GenerateReportCommand.php
-├── app/Http/Controllers
-│   └── TerminalController.php
-├── resources/views
-│   └── terminal/index.blade.php
 ├── routes/web.php
 └── public/preview.png
 ```
 
 ## 📖 Philosophy
 
-> This project bridges CLI power and web simplicity. ArtisanWebShell empowers Laravel developers to run commands, generate reports, and learn Artisan features from the comfort of a browser tab.
+> This project bridges CLI power and web simplicity. ArtisanReporter empowers Laravel developers to run commands, generate reports, and learn Artisan features from the comfort of a browser tab.
 
 ## 📝 License
 

@@ -37,13 +37,13 @@ class GenerateReportCommand extends Command
 
         // Check if the table exists
         if (!Schema::hasTable($table)) {
-            $this->error("الجدول '$table' غير موجود.");
+            $this->error("The table '$table' does not exist.");
             return 1;
         }
 
         // Check if the table has a created_at column for date filtering
         if (!Schema::hasColumn($table, 'created_at')) {
-            $this->error("لا يمكن تطبيق الفلترة بالتاريخ لأن الجدول لا يحتوي على عمود 'created_at'.");
+            $this->error("Date filtering cannot be applied because the table does not contain a 'created_at' column.");
             return 1;
         }
 
