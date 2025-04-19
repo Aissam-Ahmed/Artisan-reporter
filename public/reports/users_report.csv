@@ -1,0 +1,6 @@
+id,name,email,email_verified_at,password,remember_token,created_at,updated_at
+1,"Vincenza Homenick",bradtke.noemi@example.org,"2025-04-19 22:18:59",$2y$12$rAj4gwSpszFhG.ymlXaXrONFMWsO8JOYDQtrfVfnmHPI6TCFn9PQa,2sYIF2H5J3,"2023-04-19 22:18:59","2025-04-19 22:18:59"
+2,"Elise Gibson",kuhlman.cathryn@example.org,"2025-04-19 22:18:59",$2y$12$rAj4gwSpszFhG.ymlXaXrONFMWsO8JOYDQtrfVfnmHPI6TCFn9PQa,eRfDUGEi5d,"2025-04-19 22:18:59","2025-04-19 22:18:59"
+3,"Abby Glover I",rosa.carroll@example.org,"2025-04-19 22:18:59",$2y$12$rAj4gwSpszFhG.ymlXaXrONFMWsO8JOYDQtrfVfnmHPI6TCFn9PQa,vgvPM8XQwU,"2025-04-19 22:18:59","2025-04-19 22:18:59"
+4,"Eliane Will",connie.donnelly@example.net,"2025-04-19 22:18:59",$2y$12$rAj4gwSpszFhG.ymlXaXrONFMWsO8JOYDQtrfVfnmHPI6TCFn9PQa,gRPvO9nBJX,"2025-04-19 22:18:59","2025-04-19 22:18:59"
+5,"Ms. Fatima Schroeder I",leda.graham@example.net,"2025-04-19 22:18:59",$2y$12$rAj4gwSpszFhG.ymlXaXrONFMWsO8JOYDQtrfVfnmHPI6TCFn9PQa,XOfRHLHfX9,"2025-04-19 22:18:59","2025-04-19 22:18:59"
