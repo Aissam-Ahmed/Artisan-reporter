@@ -19,18 +19,12 @@ A web-based Artisan command runner and CSV report generator built with Laravel a
 
 ## 🛠 Installation
 
-1. Clone the repository:
+1. Clone the repository & Install PHP:
 
 ```bash
-git clone https://github.com/yourusername/ArtisanWebShell.git
-cd ArtisanWebShell
-```
-
-2. Install PHP & JS dependencies:
-
-```bash
+git clone https://github.com/Aissam-Ahmed/Artisan-reporter.git
+cd Artisan-reporter
 composer install
-npm install && npm run build
 ```
 
 3. Configure your environment:
@@ -46,7 +40,7 @@ php artisan key:generate
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=artisanwebshell
+DB_DATABASE=artisan_reporter
 DB_USERNAME=root
 DB_PASSWORD=
 ```
@@ -57,19 +51,13 @@ DB_PASSWORD=
 php artisan migrate --seed
 ```
 
-In `DatabaseSeeder.php`, the following line is used to generate fake users:
-
-```php
-\App\Models\User::factory(100)->create();
-```
-
 6. Run the server:
 
 ```bash
 php artisan serve
 ```
 
-7. Visit `http://localhost:8000/terminal`
+7. Visit `http://localhost:8000/`
 
 ## ✨ Usage
 
